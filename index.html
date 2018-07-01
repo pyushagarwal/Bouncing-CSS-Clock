@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> JS CLock </title>
+        <script
+        src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+        <script src="main.js"> </script>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <div id="control">
+                <input id="scale_control" type="range" min=0.5 max=5 step="0.1" value=1>
+        </div>
+        <div id="playground">
+            <div id="clock">
+                <div id="clock_inside">
+                        <div id="minute" class="hand"></div>
+                        <div id="hour" class="hand"></div>
+                        <div id="second" class="hand"></div>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
